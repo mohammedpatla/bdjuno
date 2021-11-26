@@ -14,7 +14,7 @@ require (
 	github.com/proullon/ramsql v0.0.0-20181213202341-817cee58a244
 	github.com/rs/zerolog v1.23.0
 	github.com/stretchr/testify v1.7.0
-	github.com/forbole/tendermint v0.34.13-0.20211005074050-33591287eca5
+	github.com/tendermint/tendermint
 	github.com/ziutek/mymysql v1.5.4 // indirect
 	google.golang.org/grpc v1.33.2
 )
