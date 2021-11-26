@@ -12,6 +12,8 @@ import (
 
 	"github.com/forbole/bdjuno/database"
 	"github.com/forbole/bdjuno/modules"
+	gaiaapp "github.com/cosmos/gaia/v6/app"
+	secretapp "github.com/scrtlabs/SecretNetwork/v1.2.2/app"
 )
 
 func main() {
@@ -41,6 +43,8 @@ func getBasicManagers() []module.BasicManager {
 		module.NewBasicManager(
 			ibc.AppModule{},
 		),
+		gaiaapp.ModuleBasics,
+		secretapp.ModuleBasics,
 	}
 }
 
