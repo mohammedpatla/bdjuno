@@ -17,7 +17,7 @@ import (
 	"github.com/forbole/bdjuno/v2/modules"
 
 	gaiaapp "github.com/cosmos/gaia/v6/app"
-	secretapp "github.com/enigmampc/SecretNetwork/v1.2.2/app"
+	secretapp "github.com/scrtlabs/SecretNetwork/v1.2.2/app"
 )
 
 func main() {
