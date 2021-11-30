@@ -15,7 +15,7 @@ require (
 	github.com/rs/zerolog v1.26.0
 	github.com/spf13/cobra v1.2.1
 	github.com/stretchr/testify v1.7.0
-	github.com/forbole/tendermint v0.34.13-0.20210820072129-a2a4af55563d
+	github.com/tendermint/tendermint
 	google.golang.org/grpc v1.33.2
 	gopkg.in/yaml.v3 v3.0.0-20210107192922-496545a6307b
 )
